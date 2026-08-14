@@ -13,8 +13,12 @@
     "permissions": ["scripting"],
     "content_scripts": [
         {
-            "js": ["main.js"],
+            "js": ["album-page.js"],
             "matches": ["https://www.albumoftheyear.org/album/*"]
+        },
+        {
+            "js": ["library-page.js"],
+            "matches": ["https://www.albumoftheyear.org/user/*/library/"]
         }
     ],
     "action": {
