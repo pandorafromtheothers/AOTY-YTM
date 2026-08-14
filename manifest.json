@@ -18,7 +18,7 @@
         },
         {
             "js": ["library-page.js"],
-            "matches": ["https://www.albumoftheyear.org/user/*/library/"]
+            "matches": ["https://www.albumoftheyear.org/user/*/library/*", "https://www.albumoftheyear.org/user/*/ratings/*"]
         }
     ],
     "action": {
